@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    
+
+}
+
+@font-face{
+    font-family: myFont;
+    src: url(Raleway-Regular.ttf);
+  }
+
+body{
+    background: rgb(209, 207, 201);
+
+}
+
+.myClass{
+    background: #0b250b;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+    font-family: myFont;
+    padding: 30px;
+    text-shadow: 2px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    margin-top: 10px;
+    
+}
